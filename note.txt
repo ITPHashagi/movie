@@ -1,0 +1,4 @@
+=== Buổi 7 ===
+    - Routing: react-router-dom
+=== Buổi 8 ===
+    - Redux
