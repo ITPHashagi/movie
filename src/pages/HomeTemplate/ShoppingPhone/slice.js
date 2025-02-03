@@ -58,7 +58,7 @@ const shoppingPhoneSlice = createSlice({
     setAddToCart: (state, action) => {
       const data = action.payload;
       const productAddToCard = {
-        mapSP: data.maSP,
+        maSP: data.maSP,
         hinhAnh: data.hinhAnh,
         tenSP: data.tenSP,
         soLuong: 1,
@@ -68,7 +68,7 @@ const shoppingPhoneSlice = createSlice({
       //   Tạo mảng mới
       const newCart = [...state.cart];
 
-      const index = findIndexProduct(newCart, productAddToCard.mapSP);
+      const index = findIndexProduct(newCart, productAddToCard.maSP);
 
       if (index !== -1) {
         newCart[index].soLuong += 1;

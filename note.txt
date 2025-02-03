@@ -2,3 +2,19 @@
     - Routing: react-router-dom
 === Buổi 8 ===
     - Redux
+=== Buổi 9 ===
+    - Redux - booking ticket
+=== Buổi 10 ===
+    * Hooks:
+        - useState
+        - useEffect:
+            + chạy lại 1 lần duy nhất - Nếu đối số thứ 2 là mảng rỗng (dependency injection)
+            + chạy nhiều lần - Nếu đối số thứ 2 là (array !== dependency)
+            + Kết thúc (destroy)
+        - useCallBack
+        - useMemo
+        -Custom Hook: Tự bản thân thiết kế Hooks
+Học lại reducer
+
+=== Buổi 11 ===
+    - List Movie

@@ -1,0 +1,16 @@
+.seat{
+    border: 1px solid #000;
+    padding: 5;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.seatSold{
+    background-color: red;
+    color: white;
+    cursor: no-drop;
+}
+.seatChoosing{
+    background-color: green;
+    color: white;
+}

@@ -88,6 +88,16 @@ export default function Header() {
                   Shopping Phone
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  to="/hooks"
+                  className={({ isActive }) =>
+                    isActive ? "text-blue-700" : ""
+                  }
+                >
+                  Hooks
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>

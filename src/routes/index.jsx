@@ -8,8 +8,9 @@ import Home from "../pages/HomeTemplate/Home";
 import ListMovie from "../pages/HomeTemplate/ListMovie";
 import { Route } from "react-router-dom";
 import ShoppingPhone from "../pages/HomeTemplate/ShoppingPhone";
+import HookPage from "../pages/HomeTemplate/Hookpage";
 
-const routes = [
+export const routes = [
   {
     path: "",
     element: HomeTemplate,
@@ -29,6 +30,10 @@ const routes = [
       {
         path: "/shopping-phone",
         element: ShoppingPhone,
+      },
+      {
+        path: "/hooks",
+        element: HookPage,
       },
     ],
   },

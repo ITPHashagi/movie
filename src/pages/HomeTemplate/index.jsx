@@ -4,10 +4,10 @@ import Footer from "./_components/Footer";
 
 export default function HomeTemplate() {
   return (
-    <div>
+    <>
       <Header />
-      <Footer />
       <Outlet />
-    </div>
+      <Footer />
+    </>
   );
 }
